@@ -35,3 +35,11 @@
     bottom: 0px;
     background: linear-gradient(to bottom right, red 50%, transparent 51%);
 }
+
+.zip-component{
+    height: 40vh;
+    width: 40vw;
+    border: 2px black solid; 
+    text-align: center;
+    margin:30px auto;
+}

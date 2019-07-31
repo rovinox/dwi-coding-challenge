@@ -8,17 +8,19 @@ function Home() {
       <div className="App">
         <Link to="/offer">
           <Card style={{ width: '18rem', margin:"10px" }}>
-            <Card.Img variant="top" src="https://1726es3mqkj32w2p8m21ngvk-wpengine.netdna-ssl.com/wp-content/uploads/2016/01/DWinc_Images_Home.jpg" />
+            
             <Card.Body>
             <Card.Title>Direct Wines</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">challenge #1</Card.Subtitle>
             </Card.Body>
           </Card>
         </Link>
-        <Link>
+        <Link to="/zipcode">
             <Card style={{ width: '18rem', margin:"10px" }}>
-            <Card.Img variant="top" src="https://1726es3mqkj32w2p8m21ngvk-wpengine.netdna-ssl.com/wp-content/uploads/2016/01/DWinc_Images_Home.jpg" />
+            
             <Card.Body>
-            <Card.Title>Direct Wines</Card.Title>
+            <Card.Title>ZIP code</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">challenge #2</Card.Subtitle>
             </Card.Body>
             </Card>
         </Link>
