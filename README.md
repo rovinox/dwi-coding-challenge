@@ -1,4 +1,4 @@
-﻿clone or downlad the ripo
+﻿clone or downlad the ripo.
 you need to have npm(node package manager it's comes with node.js) on your system if you dont you can download it here https://nodejs.org/en/
 go to the root of this ripo using cmd/terminal
 type "npm install" this will install all the dependence's 
